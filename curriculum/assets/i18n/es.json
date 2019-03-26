@@ -1,0 +1,19 @@
+{
+    "JOBTITLE_TITLE":"Analista Desarrollador",
+    "SKILLS_TITLE":"Habilidades Profesionales",
+    "REPOSITORIES_TITLE":"Respositories",
+    "ABOUT_TITLE":"Sobre Mi",
+    "BASIC_INFORMACION_TITLE":"Datos Básicos",
+    "CONTACT_ME_TITLE":"Contáctame",
+    "SERVICES_TITLE":"Servicios",
+    "AGE":"Edad",
+    "EMAIL":"Correo",
+    "PHONE":"Teléfono",
+    "CELLPHONE":"Celular",
+    "ADDRESS":"Dirección",
+    "LANGUAGES":"Idiomas",
+    "RESIDENCE_ADDRESS":"Dirección de Residencia",
+    "NAME":"Nombre",
+    "SUBJECT":"Asunto",
+    "SUBMIT":"Enviar"
+}
