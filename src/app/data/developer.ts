@@ -8,10 +8,9 @@ export const DEVELOPER:Developer = {
     cellphone:3116782736,
     email:"rmarrugodelo@gmail.com",
     birthdate:new Date(1991,1,14),
-    language:"Español",
+    language:"LANGUAGE",
     addres:"Envigado, Antioquia, Colombia",
-    about:"Desarrollador de Software competente en el ámbito técnico, tecnológico, profesional, social y participativo, con capacidad de analizar, diseñar, desarrollar e implementar software."+
-    "\nBuen manejo de relaciones interpersonales y un fácil aprendizaje, dispuesto a desempeñar y contribuir de la mejor manera con las obligaciones que me sean asignadas, con permanente inquietud por adquirir nuevos conocimientos y actualización profesional.",
+    about:"ABOUT",
     Skills:SKILLS,
-    jobTitles:JOBTITLES
+    jobTitles:"JOBTITLES"
 }

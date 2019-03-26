@@ -15,5 +15,24 @@
     "RESIDENCE_ADDRESS":"Dirección de Residencia",
     "NAME":"Nombre",
     "SUBJECT":"Asunto",
-    "SUBMIT":"Enviar"
+    "SUBMIT":"Enviar",
+    "ABOUT":"Desarrollador de Software competente en el ámbito técnico, tecnológico, profesional, social y participativo, con capacidad de analizar, diseñar, desarrollar e implementar software. Buen manejo de relaciones interpersonales y un fácil aprendizaje, dispuesto a desempeñar y contribuir de la mejor manera con las obligaciones que me sean asignadas, con permanente inquietud por adquirir nuevos conocimientos y actualización profesional.",
+    "LANGUAGE":"Español",
+    "JOBTITLES":[
+        {
+            "name":"Desarollador Front End",
+            "description":"Desarollador Front End",
+            "icon":"fa fa-desktop"
+        },
+        {
+            "name":"Desarollador Back End",
+            "description":"Desarollador Back End",
+            "icon":"fa fa-server"
+        },
+        {
+            "name":"Desarollador Móvil",
+            "description":"Desarollador Móvil",
+            "icon":"fa fa-mobile"
+        }
+    ]
 }

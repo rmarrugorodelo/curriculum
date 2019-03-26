@@ -10,5 +10,5 @@ export interface Developer {
     addres:string;
     about:string;
     Skills:Skill[];
-    jobTitles:JobTitle[];
+    jobTitles:any;
 }

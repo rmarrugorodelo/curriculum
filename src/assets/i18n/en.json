@@ -1,5 +1,5 @@
 {   
-    "JOBTITLE_TITLE":"Analyst Developer",
+    "JOBTITLE_TITLE":"Development Analyst",
     "SKILLS_TITLE":"Professional Skills",
     "REPOSITORIES_TITLE":"Respositories",
     "ABOUT_TITLE":"About",
@@ -15,5 +15,24 @@
     "RESIDENCE_ADDRESS":"Residence Address",
     "NAME":"Name",
     "SUBJECT":"Subject",
-    "SUBMIT":"Submit"
+    "SUBMIT":"Submit",
+    "ABOUT":"Software Developer competent in the technical, technological, professional, social and participative field, with the ability to analyze, design, develop and implement software. \nGood management of interpersonal relationships and easy learning, willing to play and contribute in the best way with the obligations assigned to me, with permanent concern to acquire new knowledge and professional updating.",
+    "LANGUAGE":"Spanish",
+    "JOBTITLES":[
+        {
+            "name":"Front End Developer",
+            "description":"Front End Developer",
+            "icon":"fa fa-desktop"
+        },
+        {
+            "name":"Back End Developer",
+            "description":"Back End Developer",
+            "icon":"fa fa-server"
+        },
+        {
+            "name":"Mobile Developer",
+            "description":"Mobile Developer",
+            "icon":"fa fa-mobile"
+        }
+    ]
 }
