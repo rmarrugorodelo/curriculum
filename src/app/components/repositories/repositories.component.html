@@ -1,0 +1,16 @@
+<div class="container section">
+  <div class="title">
+    <h4>{{"REPOSITORIES_TITLE" | translate}}</h4>
+  </div>
+  <div class="repos">
+    <div class="repo shadow" *ngFor="let repo  of repositories">
+      <a [href]="repo.url" target="_blank">
+        <span>{{repo.name}}</span>
+      </a>
+      <p>
+        {{repo.description}}
+      </p>
+      <span class="badge"> {{repo.language}}</span>
+    </div>
+  </div>
+</div>

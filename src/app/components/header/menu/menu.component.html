@@ -1,0 +1,19 @@
+<div class="fixed-top">
+  <nav class="nav" [ngClass]="{'scroll-top': scrollOffset}" color-on-scroll="400">
+    <ul>
+      <li>
+          <select [(ngModel)]="language" (change)="changeLanguage()" class="select">
+              <option [value]="language.code" *ngFor="let language of languages">{{language.name}}</option> 
+          </select>
+      </li>
+    </ul>
+  </nav>
+  <!-- <nav class="nav" [ngClass]="{'scroll-top': scrollOffset}" color-on-scroll="400">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#profile">Nosotros</a></li>
+        <li><a href="#skills">Servicios</a></li>
+        <li><a href="#footer">Contacto</a></li>
+      </ul>
+    </nav>-->
+</div>

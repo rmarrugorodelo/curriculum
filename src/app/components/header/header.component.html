@@ -1,0 +1,26 @@
+<div class="header" #logo (scroll)="onScroll($event)">
+  <app-menu [scrollOffset]="scrollOffset"></app-menu>
+  <div class="container">
+    <div class="content">
+      <img src="assets/img/perfil.png" class="photo-profile">
+      <h1 class="profile-title">Richard Marrugo Rodelo</h1>
+      <p class="profile-subtitle">{{"JOBTITLE_TITLE" | translate}}</p>
+      <nav class="socials">
+        <ul>
+          <li>
+            <a href="http://facebook.com"><span> Facebook</span></a>
+          </li>
+          <li>
+            <a href="http://twitter.com"><span> Twitter</span></a>
+          </li>
+          <li>
+            <a href="http://youtube.com"><span> YouTube</span></a>
+          </li>
+          <li>
+            <a href="http://instagram.com"><span> Instagram</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>

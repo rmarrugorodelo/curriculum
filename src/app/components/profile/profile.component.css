@@ -1,0 +1,29 @@
+.profile{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.data-basic {
+    display: grid;
+}
+
+.data-basic .row .field {
+    text-transform: uppercase!important;
+    
+}
+.data-basic .row {
+    padding-top: 16px;
+}
+@media (min-width:768px){
+    .profile{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        grid-column-gap: 2rem;
+        padding: 2rem;
+    }
+    .data-basic .row {
+        display: grid;
+        grid-template-columns: 32% 68%;
+        padding-top: 16px;
+        justify-content: space-between; 
+    }
+}

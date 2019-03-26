@@ -1,0 +1,38 @@
+<div class="container section">
+    <div class="title">
+            <h4>{{"SKILLS_TITLE" | translate}}</h4>
+    </div>
+    <div class="skills shadow">
+        <div class="content">
+            <div class="skill" *ngFor="let skill of skills1">
+                <div class="skill-title">
+                    <div>
+                        <strong>{{skill.name | uppercase}}</strong>
+                    </div>
+                    <div>
+                        <strong> {{skill.percentage}}% </strong>
+                    </div>
+                </div>
+                <div class="progres">
+                    <span [style.width.%]="skill.percentage"></span>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="skill" *ngFor="let skill of skills2">
+                <div class="skill-title">
+                    <div>
+                        <strong>{{skill.name | uppercase}}</strong>
+                    </div>
+                    <div>
+                        <strong> {{skill.percentage }}%</strong>
+                    </div>
+                </div>
+                <div class="progres">
+                    <span [style.width.%]="skill.percentage"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

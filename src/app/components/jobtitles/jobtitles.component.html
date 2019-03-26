@@ -1,0 +1,12 @@
+<div class="section container">
+  <div class="center">
+    <h4>{{"SERVICES_TITLE" | translate}}</h4>
+  </div>
+  <div id="" class="services">
+    <div class="service" *ngFor="let jobTitle of developer.jobTitles">
+      <h3>{{jobTitle.name}}</h3>
+      <i [class]="jobTitle.icon"></i>
+      <p>{{jobTitle.description}}</p>
+    </div>
+  </div>
+</div>

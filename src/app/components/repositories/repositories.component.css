@@ -1,0 +1,35 @@
+.repos{
+}
+.repo{
+    margin: .9rem;
+    border: 1px solid #e1e4e8!important;
+    padding: .5rem;
+    word-wrap: break-word; 
+    display: flex;
+    flex-direction: column;
+}
+.repo span{
+    align-self: flex-end;
+}
+.repo a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+@media (min-width:768px){
+    .repos{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(150px,1fr));
+    }
+}  
+.badge {
+    display: inline-block;
+    padding: .7em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-radius: .25rem;
+    background-color: #6c757d;
+} 

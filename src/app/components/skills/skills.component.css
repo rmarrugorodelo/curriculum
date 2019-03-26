@@ -1,0 +1,36 @@
+.progres { 
+	height: 5px;
+    background: #e6e0e0;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.progres > span {
+    display: block;
+    height: 100%;
+    background-color: rgb(43,194,83);
+  }
+  .skills{
+      padding: 2rem;
+  }
+  .skills .content{
+    margin-bottom: 2rem;
+  }
+  .skill{
+    margin-bottom: 1rem;
+  }
+  .skill-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+@media (min-width:768px){
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px,2fr));
+        grid-column-gap: 2rem;
+        justify-content: space-between;
+    }
+    .skills .content{
+        margin-bottom: 0;
+      }
+}
+ 

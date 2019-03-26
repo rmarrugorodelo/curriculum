@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --fuentePrincipal:"Montserrat", "Helvetica Neue", Arial, sans-serif;
+    --fuenteSecundaria: 'Oswald', sans-serif;
+
+    --primario: #f1a94e;
+    --secundario: #44b3c2;
+    --claro: #ffffff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--fuentePrincipal);
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+h1 {
+    font-size: 2.8rem;
+}
+h2 {
+    font-size: 2.6rem;
+}
+h3 {
+    font-size: 2.4rem;
+}
+h4 {
+    font-size: 1.714em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.61em;
+}
+.section{
+    margin-top: 4rem !important;
+}
+.shadow{
+    -webkit-box-shadow: 0px 0px 38px -5px rgba(0,0,0,0.79);
+    -moz-box-shadow: 0px 0px 38px -5px rgba(0,0,0,0.79);
+    box-shadow: 0px 0px 38px -5px rgba(0,0,0,0.79);
+}
+.socials ul{
+    display: flex;
+    justify-content: center;
+}
+.socials ul li span{
+    display: none;
+}
+.socials ul li a:before{
+    font-family:  "Font Awesome 5 Brands"
+}
+.socials ul li a[href*='facebook.com']::before{
+   /* content: "\f39e"*/
+   content: "\f082"
+}
+.socials ul li a[href*='twitter.com']::before{
+    content: "\f099"
+}
+.socials ul li a[href*='youtube.com']::before{
+    content: "\f167"
+}
+.socials ul li a[href*='instagram.com']::before{
+    content: "\f16d"
+}
+.socials ul li a[href*='pinterest.com']::before{
+    content: "\f0d2"
+}
+.title{
+    text-align: center;
+    padding: 2rem;
+}
+.center{
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+.services{
+    text-align: center;
+}
+.services h3{
+   padding-bottom: .5rem;
+}
+.services h3::after{
+    width: 7rem;
+    height: .5rem;
+    background-color: var(--primario);
+    content: '';
+    display: block;
+    margin: 1rem auto 0 auto;
+ }
+ .services i{
+     font-size: 3rem;
+     color: var(--secundario);
+ }
+@media (min-width:768px){
+    .services{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(150px,1fr));
+        grid-column-gap: 2rem;
+    }
+}

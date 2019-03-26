@@ -1,0 +1,55 @@
+import { Skill } from '../interfaces/skill';
+
+export const SKILLS:Skill[] = [
+    {
+        name:"Css",
+        description:"",
+        percentage:70
+    },
+    {
+        name:"JavaScript",
+        description:"",
+        percentage:75
+    },
+    {
+        name:"Angular",
+        description:"",
+        percentage:80
+    },
+    {
+        name:"Java",
+        description:"",
+        percentage:90
+    },
+    {
+        name:"PHP",
+        description:"",
+        percentage:85
+    },
+    {
+        name:"Bootstrap",
+        description:"",
+        percentage:90
+    },
+    {
+        name:"Materialize",
+        description:"",
+        percentage:65
+    },
+    {
+        name:"Backbone",
+        description:"",
+        percentage:80
+    },
+    {
+        name:"Android",
+        description:"",
+        percentage:70
+    },
+    {
+        name:"Sql",
+        description:"",
+        percentage:90
+    }
+    
+]
