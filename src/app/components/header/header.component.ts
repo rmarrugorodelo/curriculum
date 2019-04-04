@@ -1,22 +1,19 @@
 
-import { Component, OnInit, HostListener, ViewChild, ElementRef } from '@angular/core';
+import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
   @ViewChild('logo') logo: ElementRef;
   scrollOffset:boolean;
  
 
   constructor() {
-   }
-  
-  ngOnInit() {
     this.scrollOffset=false;
-  }
+   }
 
   @HostListener('window:scroll', ['$event']) // for window scroll events
   onScroll($event) {

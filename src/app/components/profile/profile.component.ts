@@ -7,15 +7,12 @@ import { DEVELOPER } from '../../data/developer';
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.css']
 })
-export class ProfileComponent implements OnInit {
+export class ProfileComponent{
 
   developer:Developer;
 
   constructor() {
     this.developer=DEVELOPER;
    }
-
-  ngOnInit() {
-  }
 
 }

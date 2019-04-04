@@ -1,4 +1,3 @@
-import { JOBTITLES } from './jobtitles';
 import { Developer } from './../interfaces/developer';
 import { SKILLS } from './skills';
 

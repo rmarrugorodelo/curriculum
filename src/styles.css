@@ -81,3 +81,7 @@ p {
 .center{
     text-align: center;
 }
+.img-prop{
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -8,24 +8,16 @@ export class GitHubService {
   constructor(private http:HttpClient) { }
 
   getRepos(){
-    return this.http.get(AppConstant.API_GITHUB).pipe(map( (res:any[]) => {
-      let repos:Repository[]=[];
-      res.forEach(element => {
-        repos.push(this.getRepository(element));
-      });
-      return repos;
-    }));
+    return this.http.get(AppConstant.API_GITHUB).pipe(map((resp:[])=>resp.map(obj=>{
+        return {
+          name:obj['name'],
+          url:obj['html_url'],
+          language:obj['language'],
+          pushed_at:obj['pushed_at'],
+          description:obj['description']
+        }
+      })
+    ));
   }
-  getRepository(res:any):Repository{
-    let data:Repository={
-      name:res['name'],
-      url:res['html_url'],
-      language:res['language'],
-      pushed_at:res['pushed_at'],
-      description:res['description']
-    }
-    return data;
-  }
-
 }
 
